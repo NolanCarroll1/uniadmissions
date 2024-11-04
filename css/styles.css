@@ -336,7 +336,7 @@ header {
 header span {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #0E203B;
+  color: #89722F;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -371,21 +371,21 @@ nav ul {
 }
 nav li a {
   display: block;
-  color: #0E203B;
+  color: #89722F;
   padding: 0.9rem 2vw;
   text-decoration: none;
   text-align: right;
   border-bottom: 1px solid #ccc;
 }
 nav li.active a {
-  color: #C5AA56;
+  color: #0E203B;
 }
 
 /* --------------------------- MAIN --------------------------- */
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #C5AA56;
+  color: #0E203B;
   font-weight: 300;
 }
 main p {
@@ -401,12 +401,12 @@ form.myForm {
 form.myForm label {
   display: block;
   font-size: 0.8rem;
-  color: #C5AA56;
+  color: #0E203B;
   padding: 0.25rem;
 }
 form.myForm h3 {
   font-size: 0.9rem;
-  color: #0E203B;
+  color: #89722F;
   margin: 1.5rem 0 0.25rem 0;
   border-bottom: 1px solid #eee;
 }
@@ -428,7 +428,7 @@ form.myForm select {
 form.myForm input[type=submit] {
   border: none;
   border-radius: 10px;
-  background-color: #C5AA56;
+  background-color: #0E203B;
   font-weight: 700;
   color: white;
   padding: 1rem;
@@ -443,12 +443,12 @@ form.myForm input:focus {
   border: 3px solid #ccc;
 }
 form.myForm input:required:valid {
-  border: 1px solid #0E203B;
+  border: 1px solid #89722F;
 }
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #0E203B;
+  background-color: #89722F;
 }
 
 footer {
@@ -490,8 +490,8 @@ footer a {
   nav li.active a {
     -webkit-text-decoration: underline 3px;
             text-decoration: underline 3px;
-    color: #0E203B;
-    text-decoration-color: #C5AA56;
+    color: #89722F;
+    text-decoration-color: #0E203B;
   }
 }
 @media only screen and (min-width: 64rem) {
