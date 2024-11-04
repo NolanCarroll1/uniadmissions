@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>University Admissions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.min.css"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="headerWrapper">
+      <header id="top">
+        <a href="index.html" class="logo"
+        ><img
+          src="images/logo1x.png"
+          alt="logo"
+          width="60"
+          height="60"
+          srcset="
+            images/logo1x.png 1x,
+            images/logo2x.png 2x,
+            images/logo3x.png 3x
+          "
+      /></a>
+        <span>College University</span>
+        <a href="#navlinks">&#9776;</a>
+      </header>
+    </div>
+    <!-- end header wrapper -->
+
+    <div id="navWrapper">
+      <nav id="navlinks">
+        <a href="#top">&#10005</a>
+        <ul>
+            <li class="active"><a href="#">Admissions</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Faculty</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end nav wrapper -->
+
+    <div id="mainWrapper">
+      <main>
+        <h1>University Admissions</h1>
+        
+        <form
+          method="get"
+          action="thanks.html"
+          class="myForm"
+          autocomplete="on"
+        >
+        <h3>Personal Information</h3>
+          <label
+            >First Name:
+            <input
+              type="text"
+              name="fname"
+              autocomplete="given-name"
+              required
+              title="First Name Here"
+          /></label>
+          <label
+            >Last Name:
+            <input
+              type="text"
+              name="lname"
+              autocomplete="family-name"
+              required
+              title="Last Name Here"
+          /></label>
+          <label
+            >E-mail:
+            <input
+              type="email"
+              name="email"
+              autocomplete="email"
+              required
+              title="Your E-mail Here"
+              placeholder="johnstudent@email.com"
+          /></label>
+          <label
+            >Phone Number:
+            <input
+              type="tel"
+              name="Phone"
+              autocomplete="tel-national"
+              required
+              title="Your Cell Phone Number"
+              placeholder="1234567890"
+          /></label>
+          <label
+            >Address:
+            <input
+              type="text"
+              name="Address"
+              autocomplete="address-line1"
+              title="Your street address"
+          /></label>
+          <label
+          >State:
+          <input
+            type="text"
+            name="State"
+            autocomplete="address-level1"
+            title="Your State"
+        /></label>
+        <label
+          >City:
+          <input
+            type="text"
+            name="City"
+            autocomplete="address-level2"
+            title="Your City"
+        /></label>
+        <label
+          >ZIP Code:
+          <input
+            type="text"
+            name="Zip"
+            autocomplete="postal-code"
+            title="Your ZIP Code"
+        /></label>
+          <h3>Communication Preference</h3>
+            <label>
+                <input type="radio" name="communication" value="email"> E-mail
+            </label>
+            <label>
+                <input type="radio" name="communication" value="text"> Text
+            </label>
+            <label>
+                <input type="radio" name="communication" value="mail"> Mail
+            </label>
+          
+        <h3>Previous School Information</h3>
+          <label> School Type:
+            <select name="school type">
+                <option value="No Selection Made">Please Select</option>
+                <option value="High School">High School</option>
+                <option value="4year">4 Year University</option>
+                <option value="2year">2 Year University</option>
+          </select>
+        </label>
+        <label>
+          Graduation Date:
+          <input
+            type="text"
+            name="graddate"
+            title="Your Graduation Date of the school listed above."
+            placeholder="mm/dd/yyyy"
+        /></label>
+        <h3>Education Completed</h3>
+            <label>
+                <input type="checkbox" name="ged"> GED
+            </label>
+            <label>
+                <input type="checkbox" name="highschool"> High School Diploma
+            </label> 
+            <label>
+                <input type="checkbox" name="associates"> Two Year Associates Degree
+            </label>
+            <h3>Create Login</h3>
+            <label>Username(5-10 Upper and Lowercase Letters ONLY)
+                <input type="text" required pattern="[A-Za-z]{5,10}"  title="Enter a username with 5-10 upper or lowercase letters ONLY">
+            </label>
+            <label>Password(6+ characters)
+                <input type="password" name="password" required minlength="6" title="Enter a password with 6+ characters">
+            </label>
+          <input type="submit" value="SEND APPLICATION" />
+        </form>
+      </main>
+    </div>
+    <!-- end main wrapper -->
+
+    <div id="footerWrapper">
+      <footer>
+        <p>
+          Copyright &copy; 2025 &bull; Nolan Carroll 
+        </p>
+      </footer>
+    </div>
+    <!-- end footer wrapper -->
+  </body>
+</html>
